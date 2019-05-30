@@ -1,0 +1,156 @@
+*{
+margin:0;
+padding:0;
+width:100%;
+text-decoration:none;
+font-family: Arial;
+background:#6633FF;
+}
+header,nav,article{
+width:100%;
+	
+}
+header{
+height:80px;
+text-align:center;
+}
+header#lists{
+height:50px;
+}
+header#table{
+height:50px;
+}
+header p{
+font-size:30px;
+}
+nav{
+padding-left:50px;
+width:100%;
+height:80px;
+}
+article{
+width:100%;
+height:500px;
+}
+article h2{
+text-align:center;
+}
+article.lists{
+width:100%;
+height:500px;
+}
+article.lists ul{
+margin-left:130px;
+float:left;
+}
+article.lists ul li{
+list-style-type:alpha;
+}
+article.lists #lists1 h3{
+margin-left:150px;
+margin-top:28px;
+}
+article.lists #lists1{
+width:190px;
+float:left;
+}
+article.lists #lists1 ul{
+margin-left:170px;
+}
+article.lists #lists2{
+margin-left:500px;
+padding-top:10px;
+}
+article.lists #lists2 h3{
+margin-top:18px;
+padding-bottom:15px;
+}
+article.lists #lists2 li img{
+width:275px;
+height:183px;
+}
+article.lists #lists2 ol li #li1{
+list-style-image:url(img/img3.jpg);
+}
+article.table .row1{
+
+}
+article.table .row1 #table{
+border:1px solid black;
+}
+
+img#index1{
+width:400px;
+height:332px;
+float:left;
+margin-right:15px;
+}
+img#text1{
+width:288px;
+height:441px;
+float:left;
+margin-right:10px;
+}
+#text2{
+float:left;
+margin:10px 0 0 65px;
+}
+.txt1{
+font-weight:bold;
+font-size:20px;
+}
+.button{
+width:15%;
+height:30px;
+margin:0.3% 0 0 3%;
+float:left;
+text-align:center;
+background:#3300CC;
+border-radius:10px;
+padding-top:10px;
+}
+.button:hover{
+background:#6666FF;
+color:red;
+}
+#menu{
+width:100%;
+}
+#umenu{
+list-style-type:none;
+}
+#menu li {
+display:block;
+}
+#umenu a{
+color:black;
+}
+
+.tableone{
+	display: table;
+	width: 100%;
+	margin-left:45%;
+}
+.tableorw {
+	display: table-row;
+}
+.tablecell{
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.tables {
+	display: table-row-group;
+}
+
+header#images1{
+background-image:none;
+}
+nav#images2{
+background-image:none;
+}
+article#images3{
+background-image:none;
+}
+
